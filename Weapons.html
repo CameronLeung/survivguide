@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1500px}
+    
+	  h1{
+		  color: black;
+		 font-family: Arial;
+		  font-size: 60px;
+	  }
+	  h4{
+		  color: black;
+		  font-family: Arial;
+		  font-size: 24px;
+	  }
+	  p{
+		  color: black;
+		  font-family: Courier;
+		  font-size: 20px;
+	  }
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+	  body{
+		  background-color: white;
+	  }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+	  table{
+		  background-color: white;
+	  }
+	  td{
+		  color: black;
+		  font-family: Arial;
+		  font-size: 16px;
+	  }
+	  th{
+		  color: black;
+		  font-size: 20px;
+		  font-family: comic sans;
+	  }
+	 
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Surviv.io Guide</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="home.html">Home</a></li>
+        <li><a href="Weapons.html">Weapons</a></li>
+        <li><a href="Items_Objects.html">Items/Objects</a></li>
+		
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+     <li><a href="About.html">About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+	<h1>Weapons</h1>
+	<p>There are many guns types in Surviv.io, including   Pistols, SMGs, Shotguns, Assult Rifles, LMGs, DMRs, Sniper Rifles, Melee Weapons, and Throwables, each with their own fire rate and damage per hit. </p>
+	<table>
+    <h4>Pistols</h4>
+		<tr>
+    <th width="96">Name</th>
+	  <th width="67">Ammo</th>
+	<th width="1333">Description</th>
+  </tr>
+  <tr>
+    <td>M9</td>
+    <td>9mm</td>
+	<td>The most common pistol in the game, firing 9mm bullets. This is a mediocre gun, and the dual-wielded version is mediocre as well.</td>
+  </tr>
+  <tr>
+    <td>G18C</td>
+    <td>9mm</td>
+	<td>An automatic 9mm pistol. It has a high DPS and when dual-wielded, it has an even higher DPS, however then becomes the most inaccurate gun in the game.</td>
+  </tr>
+  <tr>
+	<td>M93R</td>
+	<td>9mm</td>
+	  <td>This is a pistol that fires a 3 round burst, which is great for mid-range fighting, and when dual-wielded it is even stronger</td>
+  </tr>	
+  <tr>
+	<td>OT-38</td>
+	  <td>7.62mm</td>
+	  <td>This is a slow firing pistol, however, deals a lot of damage per shot.</td>
+		</tr>
+  <tr>
+ 	<td>DEagle50</td>
+	  <td>.50AE</td>
+	  <td>The Desert Eagle is a slow firing pistol that uses a rare .50 AE ammo, and is a powerful mid-range weapon when you conserve your ammo.</td>
+		</tr>
+  <tr>
+   <td>Peacemaker</td>
+	  <td>.45ACP</td>
+	  <td>This is a powerful 6 shot revolver that has first shot accuracy, but is only available in the "Desert Rain" update.</td>
+		</tr>
+  <tr>
+	  <td>Flare Gun</td>
+	  <td>Flare</td>
+	  <td>The Flare Gun calls down an air drop. It uses it's own ammo and does no damage.</td>
+		</tr>
+  <tr>
+	  <td>M1911</td>
+	  <td>.45ACP</td>
+	  <td>A gun only in the "Desert Rain" update. The M1911 is similar to the m9 but has a smaller mag but deals more damage.</td>
+</tr>
+  <tr>
+      <td>OTs-38</td>
+	  <td>7.62mm</td>
+	  <td>A suppressed version of the OT-38. It is only available in golden air drops and in the Artic Avenger Crate.</td>
+</tr>
+  <tr>
+	  <td>P30L</td>
+	  <td>9mm</td>
+	  <td>This is a semi-automatic pistol that uses 9mm ammo, and is just a bit better than the M9.</td>
+		</tr>
+</table>
+<h4>SMGs</h4>	
+<table>
+	<tr>
+	<th width="61">Name</th>
+	<th width="74">Ammo</th>
+		<th width="68">Mag Size</th>
+	<th width="1329">Description</th>
+	
+	</tr>
+	<tr>
+	<td>MP5</td>
+		<td>9mm</td>
+		<td>30</td>
+		<td>This is a gun that is often found early game. Although the MP5 is the weakest out of all the SMGs, it is the most accurate.</td>
+	</tr>
+	<tr>
+	<td>UMP9</td>
+		<td>9mm</td>
+		<td>30</td>
+		<td>This is a burst SMG that is more powerful than the MP5, and is very strong if used correctly.</td>
+	</tr>
+	<tr>
+	<td>MAC-10</td>
+		<td>9mm</td>
+		<td>32</td>
+		<td>The MAC-10 is one of the best close range guns in the game, however it is awful at long range.</td>
+	</tr>
+	<tr>
+	<td>Vector</td>
+		<td>9mm</td>
+		<td>33</td>
+		<td>The Vector is the stronger version of the MAC-10 and is also extremely powerful at short distance, but is weak at long distance.</td>
+	</tr>
+	<tr>
+	<td>M1A1</td>
+		<td>.45 ACP</td>
+		<td>30</td>
+		<td>The M1A1 is very similar to the MP5 and is only avaialble in the "Desert Rain" update. Being similar to the MP5, it is very common.</td>
+	</tr>
+	<tr>
+	<td>CZ-3A1</td>
+		<td>9mm</td>
+		<td>30</td>
+		<td>This gun is only available in golden supply drop, and is very similar to the vector. This is the rarest SMG in the game is good from short-mid ranges.</td>
+	</tr>
+	</table>	
+	
+	<h4>Shotguns</h4>
+	<table>
+	<tr>
+		<th width="65">Name</th>
+		<th width="79">Ammo</th>
+		<th width="67">Mag Size</th>
+		<th width="1232">Description</th>
+		</tr>
+	<tr>
+	<td>M1100</td>
+		<td>12 Gauge</td>
+		<td>4</td>
+		<td>The M1100 is the weakest shotgun in the game. Although it has a fast fire rate, it does very little damage.</td>
+	</tr>
+	<tr>
+	<td>M870</td>
+		<td>12 Gauge</td>
+		<td>5</td>
+		<td>The M870 is a powerful shotgun and each shot deals a lot of damage. However, there is a delay between each shot which is a major drawback.</td>
+		</tr>
+	<tr>
+		<td>MP220</td>
+		<td>12 Gauge</td>
+		<td>2</td>
+		<td>The MP220 fires very fast, and deals a lot of damage. However, if you miss your shots, it takes a while to reload, so good luck!</td>
+		</tr>
+	<tr>
+		<td>SPAS-12</td>
+		<td>12 Gauge</td>
+		<td>9</td>
+		<td>The SPAS-12 has long range, however the gun has a low spread so the gun should be used in mid-long range combat.</td>
+		</tr>
+	<tr>
+		<td>Saiga-12</td>
+		<td>12 Gauge</td>
+		<td>5</td>
+		<td>The Saiga-12 is a powerful shotgun that deals a lot of damage, with a fast fire rate. It is quite rare, and should be used in short-range combat</td>
+		</tr>
+	<tr>
+		<td>Super-90</td>
+		<td>12 Gauge</td>
+		<td>5</td>
+		<td>The Super-90 fires a single bullet instead of a spread of bullets. The Super-90 is sometimes mistaken as a sniper, but actually is a shotgun.</td>
+		</tr>
+	</table>
+	
+	<h4>Assult Rifles</h4>
+	<table>
+		<tr>
+			<th width="61">Name</th>
+			<th width="63">Ammo</th>
+			<th width="65">Mag Size</th>
+			<th width="874">Description</th>
+		</tr>
+		<tr>
+			<td>AK-47</td>
+			<td>7.62mm</td>
+			<td>30</td>
+			<td>The AK-47 is a balanced weapon that performs well at all ranges.</td>
+			</tr>
+		<tr>
+			<td>MR16</td>
+			<td>5.56mm</td>
+			<td>30</td>
+			<td>This gun is very simlar to the AK-47 but the AK-47 has more damage, but the M416 has a faster fire rate.</td>
+			</tr>
+		<tr>
+			<td>Famas</td>
+			<td>5.56mm</td>
+			<td>30</td>
+			<td>This gun is similar to the UMP9 because they are both burst weapons, however, the Famas is still more powerful.</td>
+		</tr>
+		
+		<tr>
+			<td>Scar-H</td>
+			<td>7.62mm</td>
+			<td>20</td>
+			<td>The Scar-H usually found in air drops, and is pretty accurate for an assult rifle. This gun also deals a lot of damage per hit.</td>
+		</tr>
+		
+		<tr>
+			<td>Groza</td>
+			<td>7.62mm</td>
+			<td>30</td>
+			<td>The Groza has a faster fire rate than the AK-47 and does more damage than an M416, but has the drawback of a long reload time.</td>
+		</tr>
+		
+		<tr>
+			<td>Groza-S</td>
+			<td>7.62mm</td>
+			<td>30</td>
+			<td>The Suppressed Groza has a little bit more damage than the regular Groza, but has the same fire rate.</td>
+		</tr>
+			<td>M4A1-S</td>
+			<td>5.56mm</td>
+			<td>30</td>
+			<td>This suppressed weapon has high accuracy, but can only be found in golden air drops.</td>
+		</table>
+	
+
+
+</body>
+</html>
